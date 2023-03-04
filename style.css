@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+
+width: 100%;
+height: 100vh;
+margin-top: 10px;
+align-content: center;
+align-items: center;
+text-align: center;
+background-image: url(./imagens/capa.jpg);
+background-size: cover;
+background-position: center;
+
+}
+.perfil{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    border: solid 1px #fff;
+    background-color: transparent;
+
+}
+
+.perfil{
+   
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+}
+
+.midia_{
+    height:40vh ;
+   
+   
+}
+
+.capa {
+    width: 100%;
+    height:30vh;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    transition: .3s;
+
+ 
+}
+.capa:hover{
+
+}
+
+.capa img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  margin-top: -5%;
+ 
+}
+
+.foto{
+    position: relative;;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px blue;
+    align-items: center;
+    align-content: center;
+    top: -5em;
+    margin: auto;
+   
+}
+
+
+.foto img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    transition: .3s;
+}
+
+.foto:hover{
+    border: solid 5px rgb(139, 11, 101);;
+}
+.foto img:hover{
+    cursor: pointer;
+    scale: 1.1;
+   
+
+
+}
+
+
+@media (max-width: 400px){
+    .foto{
+        position: relative;;
+        width: 10em;
+        height: 10em;
+        overflow: hidden;
+        border-radius: 50%;
+        border: solid 5px blue;
+        align-items: center;
+        align-content: center;
+        top: -8em;
+        margin: auto;
+       
+    }
+    
+}
+
+.dados_pessoais{
+  color: #fff;
+}
+
+.nick_name{
+    text-align: center;
+}
+
+.nick{
+    color: #fff;
+}
